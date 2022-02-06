@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-iphone-test/static/css/main.6d743948.css",
-    "main.js": "/react-iphone-test/static/js/main.fea45ed8.js",
+    "main.css": "/react-iphone-test/static/css/main.71a261db.css",
+    "main.js": "/react-iphone-test/static/js/main.1a307358.js",
     "static/js/787.28cb0dcd.chunk.js": "/react-iphone-test/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/react-iphone-test/index.html",
-    "main.6d743948.css.map": "/react-iphone-test/static/css/main.6d743948.css.map",
-    "main.fea45ed8.js.map": "/react-iphone-test/static/js/main.fea45ed8.js.map",
+    "main.71a261db.css.map": "/react-iphone-test/static/css/main.71a261db.css.map",
+    "main.1a307358.js.map": "/react-iphone-test/static/js/main.1a307358.js.map",
     "787.28cb0dcd.chunk.js.map": "/react-iphone-test/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d743948.css",
-    "static/js/main.fea45ed8.js"
+    "static/css/main.71a261db.css",
+    "static/js/main.1a307358.js"
   ]
 }
