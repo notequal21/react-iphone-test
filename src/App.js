@@ -1,6 +1,6 @@
 import './App.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import style from './style.module.scss'
 // Import Swiper styles
 import 'swiper/css';
 
@@ -14,25 +14,77 @@ function App() {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+        <SwiperSlide>
+          {({ isActive }) => (
+            <div className={`${style.slide} ${isActive ? style.active : ''}`}>
+              rlore adaisjid uahdu  u
+            </div>
+          )}
+        </SwiperSlide>
+
 
       </Swiper>
 
